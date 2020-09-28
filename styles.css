@@ -1,0 +1,149 @@
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+body {
+  font-weight: 300;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  padding-bottom: 3rem;
+  font-weight: 900;
+}
+nav {
+  padding-bottom: 4.5rem;
+  padding-left: 0rem;
+}
+p {
+  color: #4b4545;
+}
+h2 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h3 {
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+#title {
+  color: #ffffff;
+  overflow: hidden;
+  text-align: left;
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+/* Navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: auto;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* Download buttons */
+.dow-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image  */
+#tit-img {
+  width: 65%;
+  transform: rotate(25deg);
+  margin-bottom: 4rem;
+}
+
+/* features */
+#features {
+  font-style: italic;
+  height: 25%;
+  line-height: 1.5;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.f-b {
+  padding: 5%;
+}
+.fea {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fea:hover {
+  color: #ff4c68;
+}
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+#testimonials img {
+  border-radius: 10000rem;
+  width: 10%;
+  padding: 20px;
+}
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing {
+  text-align: center;
+}
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+#cta h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+#footer i {
+  margin: 20px 10px;
+}
+
+/* media query */
+@media (max-width: 1028px) {
+  #tit-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
